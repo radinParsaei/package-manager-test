@@ -310,6 +310,6 @@ class Core {
 	}
 
 	private static String getPathSeperator() {
-		return System.getProperty("os.name").contains("win")? "\\":"/";
+		return System.getProperty("os.name").toLowerCase().contains("win")? "\\":"/";
 	}
 }
